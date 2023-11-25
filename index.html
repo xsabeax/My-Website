@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+	<style>
+        /* Add CSS styles for the button */
+        .view-resume-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #CE5A67;
+            color: #FCF5ED;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .view-resume-button:hover {
+            background-color: #F4BF96;
+        }
+    </style>
+	<script>
+        function viewResume() {
+            // Redirect to the resume website
+            window.location.href = 'resume.html';
+        }
+    </script>
+</head>
+<body style="background-color: #CE5A67; text-align: center;">
+    <header style="background-color: #1F1717; color: #fff; padding: 10px; text-align: center;">
+        <img src="C:\Users\SEVEN\Pictures\My Website\my_logo.png" alt="My Logo" style="max-width: 100px; height: auto;">
+        <h1 style="margin: 0;">My Website</h1>
+        <nav>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="display: inline; margin-right: 10px;"><a href="#about" style="text-decoration: none; color: #fff;">About</a></li>
+				<li style="display: inline; margin-right: 10px;"><a href="#my-info" style="text-decoration: none; color: #fff;">Information</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#resume" style="text-decoration: none; color: #fff;">Resume</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#contact" style="text-decoration: none; color: #fff;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" style="padding: 20px; margin: 0 auto; max-width: 1100px; text-align: left; background-color: #FCF5ED; border-radius: 5px; margin-top: 10px;">
+        <h2>About</h2>
+        <p>Oh! I see you have found my personal website. Welcome to my very own website, you can take a look around as much as you want. I hope you will find the right information that you are looking for. Jaiyo!</p>
+    </section>
+
+    <section id="my-info" style="padding: 20px; margin: 0 auto; max-width: 1100px; text-align: left; background-color: #FCF5ED; border-radius: 5px; margin-top: 10px;">
+        <h2>Information</h2>
+        <ul>
+            <li><strong>Name:</strong> Seven T. Drew</li>
+			<li><strong>Age:</strong> 19</li>
+			<li><strong>Marital Status:</strong> Single</li>
+			<li><strong>Level of Education:</strong> Currently a 2nd Year College Student</li>
+            <li><strong>Address:</strong> Marilao, Bulacan, Philippines</li>
+            <li><strong>Contact:</strong> <a href="mailto:sevendrew56@gmail.com">sevendrew56@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <section id="resume" style="padding: 20px; margin: 0 auto; max-width: 1100px; text-align: center; background-color: #FCF5ED; border-radius: 5px; margin-top: 10px;">
+        <h2>Resume</h2>
+        <p>If you need more information about me, kindly click the button below. Jaiyo!</p>
+		<!-- Button to view the resume -->
+        <button class="view-resume-button" onclick="viewResume()">View My Resume</button>
+    </section>
+
+    <section id="contact" style="padding: 20px; margin: 0 auto; max-width: 1100px; text-align: left; background-color: #FCF5ED; border-radius: 5px; margin-top: 10px;">
+        <h2>Contact Me</h2>
+        <p>If you have anything you would like to say, feel free to leave a message <a href="mailto:sevendrew56@gmail.com">sevendrew56@gmail.com</a>.</p>
+    </section>
+
+    <footer style="background-color: #1F1717; color: #fff; padding: 10px; text-align: center;">
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
+
+
+
